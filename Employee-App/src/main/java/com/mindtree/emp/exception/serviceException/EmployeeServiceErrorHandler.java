@@ -28,6 +28,6 @@ public class EmployeeServiceErrorHandler {
     }
     
 	private ResponseEntity<String> error(HttpStatus status, Exception e) {
-        return ResponseEntity.status(status).body(e.getMessage());
+        return ResponseEntity.status(status).body(e.getLocalizedMessage());
     }
 }
