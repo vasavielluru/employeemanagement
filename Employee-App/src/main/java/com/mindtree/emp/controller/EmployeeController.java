@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mindtree.emp.entity.Employee;
-import com.mindtree.emp.exception.daoexception.EmployeeNotFoundDaoException;
 import com.mindtree.emp.exception.serviceException.EmployeeInputServiceException;
 import com.mindtree.emp.exception.serviceException.EmployeeNotFoundServiceException;
 import com.mindtree.emp.exception.serviceException.IntenalServerServiceException;
